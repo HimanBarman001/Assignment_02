@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+    --color-background: #f8f9fa;
+    --color-surface: #ffffff;
+    --color-card: #ffffff;
+
+    --color-border: #e5e7eb;
+    --color-border-dark: #d1d5db;
+
+    --color-primary: #2563eb;
+    --color-primary-light: #eff6ff;
+
+    --color-success: #16a34a;
+    --color-success-light: #f0fdf4;
+
+    --color-danger: #dc2626;
+    --color-danger-light: #fef2f2;
+
+    --color-text: #111827;
+    --color-text-light: #4b5563;
+    --color-text-muted: #6b7280;
+}
+
+:root {
+    --background: #f8f9fa;
+    --surface: #ffffff;
+    --card: #ffffff;
+
+    --border: #e5e7eb;
+    --border-dark: #d1d5db;
+
+    --primary: #2563eb;
+    --primary-light: #eff6ff;
+
+    --success: #16a34a;
+    --success-light: #f0fdf4;
+
+    --danger: #dc2626;
+    --danger-light: #fef2f2;
+
+    --text: #111827;
+    --text-light: #4b5563;
+    --text-muted: #6b7280;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: var(--background);
+    color: var(--text);
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
